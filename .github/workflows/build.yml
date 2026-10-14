@@ -1,0 +1,25 @@
+name: Build
+
+# Everything happens in the engine's workflow (docs/GAME_PACKS.md in the engine):
+# it checks the engine out at `engine_ref`, lays this repository over it as
+# content/, validates the whole game, exports the Web build to Pages and
+# publishes the studio's data to the `studio-data` branch, so the art studio
+# can open this game.
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+# The engine's branch with pack rooms, the pack font and combat as data
+# (packs/water) until it is merged; then both lines go back to @main / main.
+jobs:
+  game:
+    uses: Saaayurii/ashes-of-eden/.github/workflows/game.yml@packs/water
+    with:
+      engine_repository: Saaayurii/ashes-of-eden
+      engine_ref: packs/water

@@ -1,0 +1,25 @@
+[
+  {
+    "id": "undertow_shore",
+    "chapter": "UNDERTOW_CHAPTER_I",
+    "title": "UNDERTOW_AREA_SHORE",
+    "subtitle": "UNDERTOW_AREA_SHORE_SUB",
+    "color": "#a8d8e0",
+    "rooms": [
+      "res://content/scenes/rooms/shallows.tscn",
+      "res://content/scenes/rooms/red_tide.tscn",
+      "res://content/scenes/rooms/drowned_crypt.tscn"
+    ]
+  },
+  {
+    "id": "undertow_deep",
+    "chapter": "UNDERTOW_CHAPTER_I",
+    "title": "UNDERTOW_AREA_DEEP",
+    "subtitle": "UNDERTOW_AREA_DEEP_SUB",
+    "color": "#7fa8d0",
+    "rooms": [
+      "res://content/scenes/rooms/flooded_vault.tscn",
+      "res://content/scenes/rooms/tide_hall.tscn"
+    ]
+  }
+]

@@ -1,0 +1,72 @@
+{
+  "id": "undertow",
+  "name": "Undertow",
+  "version": "0.1.0",
+  "engine": 1,
+  "inherit": [
+    "abilities",
+    "enemies",
+    "enemy_archetypes",
+    "affixes",
+    "items",
+    "resonances",
+    "vials",
+    "relics",
+    "omens",
+    "skins",
+    "techniques",
+    "props"
+  ],
+  "exclude": {
+    "props": [
+      "altar_book",
+      "cult_letters",
+      "gate_cache",
+      "reliquary_names",
+      "secret_wall_catacombs",
+      "secret_wall_swamp",
+      "secret_wall_village"
+    ]
+  },
+  "rooms": [
+    "res://content/scenes/rooms/shallows.tscn",
+    "res://content/scenes/rooms/red_tide.tscn",
+    "res://content/scenes/rooms/drowned_crypt.tscn",
+    "res://content/scenes/rooms/flooded_vault.tscn",
+    "res://content/scenes/rooms/tide_hall.tscn"
+  ],
+  "practice_room": "res://scenes/rooms/practice_yard.tscn",
+  "menu": {
+    "background": "res://assets/backgrounds/harbor_dusk.png",
+    "music": "menu"
+  },
+  "paths": {
+    "grace": {
+      "color": "#bfeee4",
+      "aura": "#a8f0ff",
+      "drift": [
+        0,
+        -26
+      ],
+      "icon": "res://assets/ui/icons/sun.png"
+    },
+    "temptation": {
+      "color": "#e8707a",
+      "aura": "#ff5a6e",
+      "drift": [
+        0,
+        14
+      ],
+      "icon": "res://assets/ui/icons/drop.png"
+    },
+    "will": {
+      "color": "#7fa8e0",
+      "aura": "#5a86c8",
+      "drift": [
+        8,
+        -6
+      ],
+      "icon": "res://assets/ui/icons/swords.png"
+    }
+  }
+}

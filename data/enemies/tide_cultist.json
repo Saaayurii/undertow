@@ -1,0 +1,34 @@
+{
+  "id": "tide_cultist",
+  "name": "ENEMY_TIDE_CULTIST",
+  "lore": "ENEMY_TIDE_CULTIST_LORE",
+  "tip": "TIP_TIDE_CULTIST",
+  "hp": 52,
+  "speed": 80,
+  "damage": 0,
+  "attack_interval": 0.8,
+  "behaviour": "walker",
+  "aggro_range": 420,
+  "size": 12,
+  "color": "#2a2a30",
+  "material": "cloth",
+  "tags": [
+    "human",
+    "cult"
+  ],
+  "stagger_chance": 0.25,
+  "sprite": {
+    "like": "cultist",
+    "tint": "#7fa6d8"
+  },
+  "attack": {
+    "type": "melee",
+    "range": 34,
+    "reach": 40,
+    "windup": 0.42,
+    "damage": 12,
+    "cooldown": 1.5,
+    "recover": 0.3
+  },
+  "essence": 14
+}

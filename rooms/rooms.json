@@ -1,0 +1,77 @@
+{
+  "shallows": {
+    "base": "swamp_moon",
+    "weather": "bubbles",
+    "ambient": "#86a4bc",
+    "spawns": [
+      ["drowned", 680, 326],
+      ["tide_cultist", 910, 403],
+      ["drowned", 560, 462],
+      ["zealot", 1470, 401],
+      ["fallen_guard", 740, 556],
+      ["shade", 960, 300],
+      ["brine_wraith", 460, 600],
+      ["raven", 1060, 150],
+      ["shade", 1160, 250]
+    ]
+  },
+  "red_tide": {
+    "base": "swamp_red",
+    "weather": "drips",
+    "ambient": "#8a98b4",
+    "spawns": [
+      ["drowned", 360, 335],
+      ["tide_cultist", 760, 422],
+      ["drowned", 460, 487],
+      ["zealot", 1280, 413],
+      ["fallen_guard", 1140, 400],
+      ["brine_wraith", 760, 300],
+      ["shade", 1010, 250],
+      ["raven", 560, 150],
+      ["elite_possessed", 1500, 243]
+    ]
+  },
+  "drowned_crypt": {
+    "base": "swamp_crypt",
+    "weather": "drips",
+    "ambient": "#7c94b0",
+    "spawns": [
+      ["drowned", 100, 402],
+      ["cult_caller", 760, 244],
+      ["drowned", 760, 439],
+      ["fallen_guard", 1520, 299],
+      ["preacher_acolyte", 1280, 302],
+      ["zealot", 610, 528],
+      ["brine_wraith", 1020, 400],
+      ["shade", 460, 200],
+      ["raven", 1170, 120],
+      ["elite_possessed", 850, 300]
+    ]
+  },
+  "flooded_vault": {
+    "base": "catacombs_2",
+    "weather": "drips",
+    "ambient": "#7890ac",
+    "spawns": [
+      ["tide_cultist", 510, 341],
+      ["drowned", 710, 412],
+      ["fallen_guard", 1160, 509],
+      ["zealot", 1520, 469],
+      ["tide_cultist", 860, 216],
+      ["preacher_acolyte", 1110, 217],
+      ["drowned", 760, 639],
+      ["drowned", 1010, 621],
+      ["shade", 660, 300],
+      ["brine_wraith", 1160, 380],
+      ["elite_possessed", 1370, 217]
+    ]
+  },
+  "tide_hall": {
+    "base": "preacher_nave",
+    "weather": "drips",
+    "ambient": "#8aa0c0",
+    "spawns": [
+      ["tide_knight", 760, 360]
+    ]
+  }
+}

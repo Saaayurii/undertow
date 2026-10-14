@@ -1,0 +1,14 @@
+{
+  "stats": {
+    "gravity": 900.0,
+    "jump_velocity": 300.0
+  },
+  "moves": {
+    "wall_jump": false
+  },
+  "enemy_ai": {
+    "alert_time": 0.6,
+    "attackers_per_side": 3,
+    "crowd_step": 18.0
+  }
+}
