@@ -36,6 +36,10 @@
     "res://content/scenes/rooms/tide_hall.tscn"
   ],
   "practice_room": "res://scenes/rooms/practice_yard.tscn",
+  "web": {
+    "tagline": "The sea took the town. Something walks out of it.",
+    "description": "Undertow: a 2D pixel action roguelite of drowned streets, harbours and flooded crypts, on the Ashes of Eden engine. Free in your browser, open source."
+  },
   "menu": {
     "background": "res://assets/backgrounds/harbor_dusk.png",
     "music": "menu"
